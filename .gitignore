@@ -15,3 +15,6 @@
 *.exe
 *.out
 *.app
+
+# What The Fuck VS
+*.sdf
