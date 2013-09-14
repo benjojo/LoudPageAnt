@@ -987,6 +987,7 @@ static void answer_msg(void *msg)
 	    freebn(reqkey.exponent);   /* and free some memory ... */
 	    freebn(reqkey.modulus);    /* ... while we're at it. */
 
+
 	    /*
 	     * Packet is the obvious five byte header, plus sixteen
 	     * bytes of MD5.
@@ -1028,6 +1029,7 @@ static void answer_msg(void *msg)
 	    if (!key)
 		goto failure;
 	    signature = key->alg->sign(key->data, data, datalen, &siglen);
+		PlaySound(TEXT("tada.wav"), NULL, SND_FILENAME);
 	    len = 5 + 4 + siglen;
 	    PUT_32BIT(ret, len - 4);
 	    ret[4] = SSH2_AGENT_SIGN_RESPONSE;
