@@ -1,6 +1,6 @@
 #ifndef PUTTY_PUTTY_H
 #define PUTTY_PUTTY_H
-
+#define SECURITY_WIN32
 #include <stddef.h>		       /* for wchar_t */
 
 /*

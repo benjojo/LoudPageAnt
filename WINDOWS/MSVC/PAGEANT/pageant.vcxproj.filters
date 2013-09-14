@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{afde5c05-d514-4f08-ac92-24248b32b834}</UniqueIdentifier>
+      <UniqueIdentifier>{9791caf6-f0b9-4486-9914-dfd8d2a4fd0b}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{93f1fa9f-be37-47f1-b157-47c66cbbff46}</UniqueIdentifier>
+      <UniqueIdentifier>{ea710ba4-be24-4a20-bfa2-39e1eacc0add}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{f16db020-7f0b-4cc3-a2bc-bc73f393d720}</UniqueIdentifier>
+      <UniqueIdentifier>{7670e3ec-1186-4488-84e7-0fc1616adbeb}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -129,5 +129,10 @@
     <ResourceCompile Include="..\..\pageant.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="tada.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
